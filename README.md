@@ -13,3 +13,8 @@ https://www.biotiendaplantas.com.ar -- https://potit.com.ar/ -- https://viverove
 
 //Trello//
 https://trello.com/b/b9p2GkmT/ecommerce-plantas
+
+//Descripción//
+Franco Rapesta: amante de la musica.
+Juan M. García: Diseñador y Comunicador, una constante curiosidad me persigue.
+Lucca Opromolla: apasionado por la informatica.
