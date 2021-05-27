@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+#home-header-logo{
+    width: 100px;
+}
+body{
+    margin: 0;
+}
+.home-header-div1{
+    display: flex;
+    background-color: lightcoral;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    justify-content: space-between;
+}
+.home-header-hamburguer-buttom{
+    text-align: left;
+}
