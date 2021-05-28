@@ -201,3 +201,150 @@ header{
      
  
 /* FIN DE REGISTRO FORMULARIO */ 
+
+/* LOGIN FORMULARIO*/
+
+.login-form-login {
+    width: 400px;
+    background-color: #2E5945;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  
+    
+} 
+
+.login-controls {
+    width: 100%;
+    background: #2E5945;
+    padding:10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    color:white;
+    border: 1px solid white;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.login-olvidado-contraseña a{
+    font-family: 'calibri';
+    color: white;
+    text-decoration: none;    
+}
+
+.login-olvidado-contraseña{
+   margin-top: 10px;
+  
+}
+
+.login-button {
+    width: 100%;
+    background: green;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    
+}
+
+@media (max-width: 472px){
+    .login-form-login{
+        width: 300px;
+        background-color: #2E5945;
+        padding: 50px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 30px;
+        font-family: 'calibri';
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+    }
+}
+
+/* FIN LOGIN */ 
+
+/* INICIO DE DETALLE DE PRODUCTO */ 
+
+.detalle-producto {
+    margin: auto;
+    margin-top: 50px;
+    width: 1500px;
+    height: 700px;
+    background-color: white;
+    border-radius: 10px;
+    border-radius: 5%;
+}
+
+.img-producto {
+    float: left;
+    width: 750px;
+    height: 700px;
+    background-color:rgb(98, 179, 98);
+    margin: auto;
+    border-radius: 5%;
+}
+
+.foto-producto {
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    padding: 30px;
+    
+}
+    
+.desc-producto {
+    float: right;
+    width: 750px;
+    height: 700px;
+    background-color: rgb(70, 143, 70);
+    margin: auto;
+    border-radius: 5%;
+}
+
+.titulo-descripcion {
+    font-size: 30px;
+    padding: 1%;
+    font-family: 'calibri';
+}
+
+.desc-producto p {
+    font-family: 'calibri';
+    padding: 1%;
+
+}
+
+.caja-compra {
+    width: 750px;
+    background-color: rgb(60, 117, 60);
+    float: right;
+    height: 210px;
+    margin-top: 365px;
+    border-radius: 5%;
+}
+
+.caja-compra h4 {
+    font-size: 30px;
+    padding: 4%;
+    font-family: 'calibri';
+}
+
+.boton-agregar-carrito {
+    float: right;
+    padding: 1%;
+    text-align: center;
+    margin-right: 10%;
+    font-family: 'calibri'; 
+    border-radius: 50%;
+    border-color: rgb(145, 158, 125);
+    background-color: green;
+    color: white;
+} 
+
+
+/* FIN DE DETALLE DE PRODUCTO /* 
