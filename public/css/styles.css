@@ -201,3 +201,68 @@ header{
      
  
 /* FIN DE REGISTRO FORMULARIO */ 
+
+/* LOGIN FORMULARIO*/
+
+.login-form-login {
+    width: 400px;
+    background-color: #2E5945;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  
+    
+} 
+
+.login-controls {
+    width: 100%;
+    background: #2E5945;
+    padding:10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    color:white;
+    border: 1px solid white;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.login-olvidado-contraseña a{
+    font-family: 'calibri';
+    color: white;
+    text-decoration: none;    
+}
+
+.login-olvidado-contraseña{
+   margin-top: 10px;
+  
+}
+
+.login-button {
+    width: 100%;
+    background: green;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    
+}
+
+@media (max-width: 472px){
+    .login-form-login{
+        width: 300px;
+        background-color: #2E5945;
+        padding: 50px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 30px;
+        font-family: 'calibri';
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+    }
+
+  
