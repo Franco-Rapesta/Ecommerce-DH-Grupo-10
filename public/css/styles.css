@@ -328,7 +328,7 @@ header{
     text-decoration: none;
     font-family: 'calibri';
 }
-}
+
 
 .form-registro a:hover{
     color: white;
@@ -442,17 +442,17 @@ header{
     width: 1500px;
     height: 700px;
     background-color: white;
-    border-radius: 10px;
-    border-radius: 5%;
+    
+   
 }
 
 .img-producto {
     float: left;
     width: 750px;
     height: 700px;
-    background-color:rgb(98, 179, 98);
+    background-color:rgb(216, 214, 214);
     margin: auto;
-    border-radius: 5%;
+    
 }
 
 .foto-producto {
@@ -468,9 +468,9 @@ header{
     float: right;
     width: 750px;
     height: 700px;
-    background-color: rgb(70, 143, 70);
+    background-color: rgb(216, 214, 214);
     margin: auto;
-    border-radius: 5%;
+    
 }
 
 .titulo-descripcion {
@@ -487,11 +487,11 @@ header{
 
 .caja-compra {
     width: 750px;
-    background-color: rgb(60, 117, 60);
+    background-color: rgb(177, 160, 160);
     float: right;
     height: 210px;
     margin-top: 365px;
-    border-radius: 5%;
+    
 }
 
 .caja-compra h4 {
@@ -512,5 +512,12 @@ header{
     color: white;
 } 
 
+.caracterista-indoor-exterior {
+  margin: auto;
+  margin-top: 50px;
+  width: 1500px;
+  height: 150px;
+  background-color: rgb(216, 214, 214);
+}
 
 /* FIN DE DETALLE DE PRODUCTO /* 
