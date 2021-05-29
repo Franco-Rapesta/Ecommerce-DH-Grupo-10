@@ -535,17 +535,17 @@ header{
     width: 1500px;
     height: 700px;
     background-color: white;
-    border-radius: 10px;
-    border-radius: 5%;
+    
+   
 }
 
 .img-producto {
     float: left;
     width: 750px;
     height: 700px;
-    background-color:rgb(98, 179, 98);
+    background-color:rgb(216, 214, 214);
     margin: auto;
-    border-radius: 5%;
+    
 }
 
 .foto-producto {
@@ -561,9 +561,9 @@ header{
     float: right;
     width: 750px;
     height: 700px;
-    background-color: rgb(70, 143, 70);
+    background-color: rgb(216, 214, 214);
     margin: auto;
-    border-radius: 5%;
+    
 }
 
 .titulo-descripcion {
@@ -580,11 +580,11 @@ header{
 
 .caja-compra {
     width: 750px;
-    background-color: rgb(60, 117, 60);
+    background-color: rgb(177, 160, 160);
     float: right;
     height: 210px;
     margin-top: 365px;
-    border-radius: 5%;
+    
 }
 
 .caja-compra h4 {
@@ -598,13 +598,29 @@ header{
     padding: 1%;
     text-align: center;
     margin-right: 10%;
-    font-family: 'calibri'; 
-    border-radius: 50%;
+    font-family: Georgia, serif; 
+    border-radius: 50px;
     border-color: rgb(145, 158, 125);
     background-color: green;
-    color: white;
+    color:black;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: normal;
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal;
+    background-image: linear-gradient(to right, rgb(216, 214, 214) 0%, white 100%, rgb(216, 214, 214) 100%); 
+      
+
 } 
 
+.caracterista-indoor-exterior {
+  margin: auto;
+  margin-top: 50px;
+  width: 1500px;
+  height: 150px;
+  background-color: rgb(216, 214, 214);
+}
 
 /* FIN DE DETALLE DE PRODUCTO /* 
 
