@@ -509,11 +509,20 @@ header{
     padding: 1%;
     text-align: center;
     margin-right: 10%;
-    font-family: 'calibri'; 
-    border-radius: 50%;
+    font-family: Georgia, serif; 
+    border-radius: 50px;
     border-color: rgb(145, 158, 125);
     background-color: green;
-    color: white;
+    color:black;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: normal;
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal;
+    background-image: linear-gradient(to right, rgb(216, 214, 214) 0%, white 100%, rgb(216, 214, 214) 100%); 
+      
+
 } 
 
 .caracterista-indoor-exterior {
