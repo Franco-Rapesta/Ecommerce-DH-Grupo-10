@@ -320,17 +320,20 @@ header{
     text-align: center;
     font-size: 18px;
     line-height: 40px;
+    font-family: 'calibri';
 }
 
 .form-registro a {
     color: white;
     text-decoration: none;
+    font-family: 'calibri';
+}
 }
 
 .form-registro a:hover{
     color: white;
     text-decoration: underline;
-}
+}    
 
 .form-registro .botons {
     width: 100%;
