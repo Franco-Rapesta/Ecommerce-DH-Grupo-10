@@ -15,10 +15,15 @@
     margin: 10px;
 }
 body{
-    margin: 0;
+    margin: 0px;
 }
 header{
     background-color: rgb(216, 214, 214);
+    
+}
+
+main{
+  margin: 25px;
 }
 
 .home-header-ofertas{
@@ -28,6 +33,7 @@ header{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    
 
 }
 
@@ -36,11 +42,13 @@ header{
     color: rgb(216, 214, 214);
     font-size:14px;
     font-style:bold;
+    
 }
 .home-header-div1{
     display: flex;
     background-size: cover;
     justify-content: space-between;
+    width: 100%;
    
 }
 .home-header-buttom{
@@ -125,11 +133,43 @@ header{
 
 /* CIERRE HEADER */ 
 
-/* MENU SIDE-BAR*/
-/* PRODUCTS */
 
 
+  /* MENU SIDE -BAR*/
+  .col-1-of-4 .block-title {
+    color: var(--grey1);
+    margin-bottom: 1.6rem;
+  }
+  
+  .col-1-of-4 h3 {
+    font-size: 2.7rem;
+    font-weight: inherit;
+  }
+  
+  .col-1-of-4 div {
+    margin-bottom: 8rem;
+  }
+  
+  .block-content li {
+    margin-bottom: 1rem;
+  }
+  
+  .block-content li label {
+    color: var(--grey2);
+    margin-left: 1rem;
+  }
+  
+  .block-content li label small {
+    font-size: 1rem;
+  }
+  
+  .block-content li input {
+    outline: none;
+  }
 
+  /* CIERRE MENU SIDE -BAR*/
+
+  /* PRODUCTS */
 .products {
     margin-top: 10rem;
   }
@@ -187,41 +227,11 @@ header{
     transition: all 300ms ease-in-out;
   }
   
+
   .col-3-of-4 form a:hover {
     background-color: var(--black);
   }
   
-  .col-1-of-4 .block-title {
-    color: var(--grey1);
-    margin-bottom: 1.6rem;
-  }
-  
-  .col-1-of-4 h3 {
-    font-size: 2.7rem;
-    font-weight: inherit;
-  }
-  
-  .col-1-of-4 div {
-    margin-bottom: 8rem;
-  }
-  
-  .block-content li {
-    margin-bottom: 1rem;
-  }
-  
-  .block-content li label {
-    color: var(--grey2);
-    margin-left: 1rem;
-  }
-  
-  .block-content li label small {
-    font-size: 1rem;
-  }
-  
-  .block-content li input {
-    outline: none;
-  }
-
 
   @media only screen and (max-width: 768px) {
     .products-layout {
@@ -257,11 +267,11 @@ header{
     .col-1-of-4{
         display:none;
     }
+    
   }
-  
-  
-  
-/* CIERRE MENU SIDE -BAR*/
+ 
+/* PRODUCTS */
+
 /* PRODUCT-LAYOUT*/
 .section .product-layout {
     display: grid;
@@ -293,6 +303,7 @@ header{
   .product .bottom {
     padding: 1rem;
     text-align: center;
+    font-family: "Open Sans";
   }
   
   .product .bottom a {
@@ -349,26 +360,72 @@ header{
     transition: all 300ms ease-in-out;
   }
   
-  
-@media only screen and (max-width: 996px) {
-    .product-layout {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .product-layout {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media only screen and (max-width: 567px) {
-    .product-layout {
-      grid-template-columns: 1fr;
-    }
-  }
- 
+
+
 /* CIERRE PRODUCT-LAYOUT*/
+
+/* SITE FOOTER*/
+
+.footer {
+  background-color: var(--black);
+  padding: 6rem 1rem;
+  line-height: 3rem;
+  
+}
+
+.footer-center span {
+  margin-right: 1rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: var(--white);
+}
+
+.footer-center a:link,
+.footer-center a:visited {
+  display: block;
+  color: #031a0d;
+  font-size: 1.2rem;
+  transition: 0.6s;
+}
+
+.footer-center a:hover {
+  color: var(--primary);
+}
+
+.footer-center div {
+  color: #1a6b0a;
+  font-size: 1.4rem;
+  opacity: 0.9;
+}
+
+.footer-center h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.footer .payment-methods {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 998px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
+/* FIN SITE FOOTER*/
+
 /* INICIO FORMULARIO REGISTRO */
 
 .form-registro {
@@ -673,3 +730,6 @@ td:last-child{
 th:last-child{
     text-align:right;
 }
+/* CARRITO DE COMPRAS*/
+
+/* SITE FOOTER*/
