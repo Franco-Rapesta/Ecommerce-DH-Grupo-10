@@ -128,6 +128,8 @@ header{
 /* MENU SIDE-BAR*/
 /* PRODUCTS */
 
+
+
 .products {
     margin-top: 10rem;
   }
@@ -189,32 +191,6 @@ header{
     background-color: var(--black);
   }
   
-  @media only screen and (max-width: 768px) {
-    .products-layout {
-      padding: 0 5rem;
-    }
-  
-    .col-3-of-4 form {
-      flex-direction: column;
-      align-items: end;
-    }
-  
-    .col-3-of-4 form a {
-      margin-right: 0;
-    }
-  
-    .col-3-of-4 form .item {
-      margin-right: 0;
-      margin-bottom: 1rem;
-    }
-  }
-  
-  @media only screen and (max-width: 567px) {
-    .col-3-of-4 .product-layout {
-      grid-template-columns: 1fr;
-    }
-  }
-  
   .col-1-of-4 .block-title {
     color: var(--grey1);
     margin-bottom: 1.6rem;
@@ -245,48 +221,48 @@ header{
   .block-content li input {
     outline: none;
   }
-  
-  .pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 4rem 0;
-  }
-  
-  .pagination span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 50%;
-    color: var(--black);
-    font-size: 1.3rem;
-    border: 1px solid var(--grey2);
-    margin-right: 0.5rem;
-    cursor: pointer;
-  }
-  
-  .pagination span.last {
-    width: 7rem;
-    border-radius: 3rem;
-  }
-  
-  .pagination span:hover {
-    border: 1px solid var(--primary);
-    background-color: var(--primary);
-    color: var(--white);
-  }
-  
+
+
   @media only screen and (max-width: 768px) {
     .products-layout {
+      padding: 0 5rem;
       grid-template-columns: 1fr;
       gap: 4rem 0;
     }
-  }
+  
+    .col-3-of-4 form {
+      flex-direction: column;
+      align-items: end;
+    }
+  
+    .col-3-of-4 form a {
+      margin-right: 0;
+    }
+  
+    .col-3-of-4 form .item {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
 
+    .col-1-of-4{
+        display:none;
+    }
+  }
+  
+  @media only screen and (max-width: 567px) {
+    .col-3-of-4 .product-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .col-1-of-4{
+        display:none;
+    }
+  }
+  
+  
+  
 /* CIERRE MENU SIDE -BAR*/
-/* PRODUCT-LAYOU*/
+/* PRODUCT-LAYOUT*/
 .section .product-layout {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -373,6 +349,24 @@ header{
     transition: all 300ms ease-in-out;
   }
   
+  
+@media only screen and (max-width: 996px) {
+    .product-layout {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .product-layout {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media only screen and (max-width: 567px) {
+    .product-layout {
+      grid-template-columns: 1fr;
+    }
+  }
  
 /* CIERRE PRODUCT-LAYOUT*/
 /* INICIO FORMULARIO REGISTRO */
