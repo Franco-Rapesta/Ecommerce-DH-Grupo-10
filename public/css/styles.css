@@ -172,7 +172,7 @@ main{
   /* PRODUCTS */
   .products {
     margin-top: 10rem;
-    display: inline-block;
+    
   }
  
   .product-layout {
@@ -293,9 +293,10 @@ main{
   
   .product {
     overflow: hidden;
+    
   }
   
-  .product .img-container {
+  .product .img-container {    
     position: relative;
     cursor: pointer;
     height: 400px;
@@ -303,6 +304,7 @@ main{
   }
   
   .product .img-container img {
+    padding-left: 50px;
     object-fit: cover;
     height:100%;
     width: 100%;
