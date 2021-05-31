@@ -127,13 +127,36 @@ main{
     .cart-info p{
         display:none;
     }
+    .banner img{
+      
+      width:100%;
+    }
+    .product{
+      width:fit-content;
+      margin: 0;
+      padding: 0;
+      
+    }
+    .img-product{
+      width: 100px;
+    }
+    .img-container{
+      width: 100px;
+    }
 }
 
 /* CIERRE HOME HEADER */ 
 
 /* CIERRE HEADER */ 
+.banner{
+ display: flex;
+ justify-content: center;
+ margin-bottom: -90px;
+}
+.banner img{
+  width: 80%;
 
-
+}
 
   /* MENU SIDE -BAR*/
   .col-1-of-4 .block-title {
