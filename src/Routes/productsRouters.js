@@ -7,4 +7,5 @@ router.get("/carrito", productsController.carrito);
 
 router.get("/detalle-producto", productsController.detalle);
 
+
 module.exports = router;

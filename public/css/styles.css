@@ -766,3 +766,109 @@ th:last-child{
 /* CARRITO DE COMPRAS*/
 
 /* SITE FOOTER*/
+
+
+
+/* INICIO ADDPRODUCT ---------------------------------------------------------------------------------------------------------------------------- */
+
+
+.add-product {
+  width: 1400px;
+  background-color: #2E5945;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+
+  
+} 
+
+.login-controls {
+  width: 100%;
+  background: #2E5945;
+  padding:10px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  color:white;
+  border: 1px solid white;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+
+
+.login-button {
+  width: 100%;
+  background: green;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  
+}
+
+@media (max-width: 472px){
+  .login-form-login{
+      width: 300px;
+      background-color: #2E5945;
+      padding: 50px;
+      margin: auto;
+      margin-top: 100px;
+      border-radius: 30px;
+      font-family: 'calibri';
+      color: white;
+      box-shadow: 7px 13px 37px #000;
+  }
+}
+
+.interior-exterior {
+  width: 8%;
+  background: #2E5945;
+  padding:10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  color:white;
+  border: 1px solid white;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.precio-nuevo {
+  width: 8%;
+  background: #2E5945;
+  padding:10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  color:white;
+  border: 1px solid white;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.desc-nuevo-product {
+  width: 70%;
+  background: #2E5945;
+  padding:10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  color:white;
+  border: 1px solid white;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+
+.img-nueva {
+  width: 100%;
+  background: #2E5945;
+  padding:10px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  color:white;
+  border: 1px solid white;
+  font-family: 'calibri';
+  font-size: 18px;
+}
