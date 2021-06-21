@@ -11,6 +11,9 @@ const usersController = {
     addProduct: function (req, res){
         res.render("./users/addProduct")
     },
+    editProduct: function (req, res){
+        res.render("./users/editProduct")
+    }
     // aca tienen que agregar los dos nuevos html o EJS que pide el sprint.
     // hacerle las rutas y todo.
 }
