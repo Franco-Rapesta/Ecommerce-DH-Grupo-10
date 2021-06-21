@@ -773,11 +773,11 @@ th:last-child{
 
 
 .add-product {
-  width: 1400px;
+  width: 70%;
   background-color: #2E5945;
   padding: 30px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 60px;
   border-radius: 4px;
   font-family: 'calibri';
   color: white;
