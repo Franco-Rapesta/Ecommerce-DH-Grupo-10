@@ -1,2 +1,75 @@
+{ "productos": [
+    {
+        "id": 1,
+        "nombre": "Allocasia Cullata",
+        "descripcion": "Planta de interior, Riego Bajo",
+        "categoría": "Interior",
+        "precio":  750,
+        "imagen": "Alocasia Cullata.jpg"
+      },
+    {
+        "id": 2,
+        "nombre": "Tradescantia Spathacea",
+        "descripcion": "Planta de interior, Riego Bajo",
+        "categoría": "Interior",
+        "precio":  1150,
+        "imagen": "Tradescantia-spathacea.jpg"
+    },{
+        "id": 3,
+        "nombre": "Palo de Agua",
+        "descripcion": "Planta de interior, Riego Bajo",
+        "categoría": "Interior",
+        "precio":  1050,
+        "imagen": "Palo de Agua.jpg"
+    },{
+        "id": 4,
+        "nombre": "Ficus Elástica",
+        "descripcion": "Planta de interior, Riego Bajo",
+        "categoría": "Interior",
+        "precio":  1350,
+        "imagen": "Ficus Elástica.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Dracena Marginata",
+        "descripcion": "Planta de interior, Riego Bajo",
+        "categoría": "Interior",
+        "precio":  1150,
+        "imagen": "Dracena Marginata.jpg"
+    },{
+        "id": 4,
+        "nombre": "Dracena Kiwi",
+        "descripcion": "Planta de interior, Riego Bajo",
+        "categoría": "Interior",
+        "precio":  1650,
+        "imagen": "Dracena Kiwi.jpg"
+    },{
+        "id": 4,
+        "nombre": "Ficus Hawai",
+        "descripcion": "Planta de interior, Riego Bajo",
+        "categoría": "Interior",
+        "precio":  1150,
+        "imagen": "Ficus Hawai.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Ficus Hawai",
+        "descripcion": "Planta de interior, Riego Bajo",
+        "categoría": "Interior",
+        "precio":  1150,
+        "imagen": "Ficus Hawai.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Ficus Hawai",
+        "descripcion": "Planta de interior, Riego Bajo",
+        "categoría": "Interior",
+        "precio":  1150,
+        "imagen": "Ficus Hawai.jpg"
+    }
+           
 
-
+]
+   
+}
+   
