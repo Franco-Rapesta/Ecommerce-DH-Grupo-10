@@ -6,6 +6,7 @@ const { Router } = require('express');
 const express = require('express');
 const path = require('path');
 const app = express();
+const methodOverride = require('method-override');
 
 app.set('view engine', 'ejs');
 app.set('views', './src/views');
@@ -19,6 +20,8 @@ app.use(express.static(publicPath));
 app.use("/", partialsRouters);
 app.use("/products", productsRouters);
 app.use("/users", usersRouters);
+app.use(methodOverride('_method'));
+
 //app.use("/users", usersController);
 
 app.listen(3002, () => {
