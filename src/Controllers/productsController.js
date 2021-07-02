@@ -7,7 +7,12 @@ const productsController = {
     detalle: function (req, res){
         res.render("./products/detalle-producto")
     },
-
+    addProduct: function (req, res){
+        res.render("./products/addProduct")
+    },
+    editProduct: function (req, res){
+        res.render("./products/editProduct")
+    }
     
 }
 
