@@ -11,6 +11,10 @@ const productsController = {
         res.render("./products/addProduct")
     },
     editProduct: function (req, res){
+        let idProduct = req.params.idProduct
+        //let productToEdit = product[idProduct];
+        //res.rendir("productEdit", {productToEdit: productToEdit});
+        //  res.send(idProduct);
         res.render("./products/editProduct")
     }
     
