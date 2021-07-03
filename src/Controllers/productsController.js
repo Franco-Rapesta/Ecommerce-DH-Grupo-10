@@ -13,9 +13,6 @@ const productsController = {
 		res.render('products',{productos: products})
 	},
     
-    
-    
-    
     carrito: function (req, res){
         res.render("./products/carrito")
     },
@@ -58,10 +55,7 @@ const productsController = {
 			if (products[i].id==idProducto){
 				var productoEncontrado = products[i];
 			}
-		}
-        //const productoEnDetalle = products.find(element => element.id == req.params.id); // mejora mas simplificada
-
-        
+		}     
         res.render('editProduct',{productoEnDetalle: productoEncontrado});
         
     },
@@ -105,7 +99,7 @@ const productsController = {
 			}
 		}
     }    
-
+	
 }
 
 module.exports = productsController;

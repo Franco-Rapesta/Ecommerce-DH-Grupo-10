@@ -166,23 +166,23 @@
         <!--Produtct-Layout-->
          
         <div class="product-layout">
-
+          <% for(let i=0;i<productos.length;i++) { %> 
             <div class="product">
               <div class="img-container">
-                <img src="/img/Alocasia Cullata.jpg" class="img-product" alt="" />
+                <img src="/img/<%=productos[i].imagen %>" class="img-product" alt="" />
                 <div class="addCart">
                   <i class="fas fa-shopping-cart"></i>
                 </div>
             </div>
               <div class="bottom">
-                <a href="../products/detalle-producto">Allocasia Cullata</a>
+                <a href="../products/detalle-producto"><%=productos[i].nombre %></a>
                 <div class="price">
-                  <span>$750</span>
+                  <span>$<%=productos[i].precio %></span>
                 </div>
               </div>
             </div>
-
-            <div class="product">
+            <% } %>
+            <!-- <div class="product"> 
                 <div class="img-container">
                   <img src="/img/Tradescantia-spathacea.jpg" class="img-product" alt="" />
                   <div class="addCart">
@@ -291,6 +291,7 @@
         </div>
         
       </section>
+      -->
       <!--Section Products-->
     </main>
 
