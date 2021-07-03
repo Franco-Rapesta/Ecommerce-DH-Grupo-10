@@ -66,6 +66,14 @@
         "categoría": "Interior",
         "precio":  1150,
         "imagen": "Ficus Hawai.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Roberto Carlos",
+        "descripcion": "Planta de interior, Riego Bajo",
+        "categoría": "Interior",
+        "precio":  1150,
+        "imagen": "Ficus Hawai.jpg"
     }
            
 

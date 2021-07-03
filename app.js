@@ -9,7 +9,7 @@ const app = express();
 const methodOverride = require('method-override');
 
 app.set('view engine', 'ejs');
-app.set('views', './src/views');
+app.set('views', path.join(__dirname, './src/views/partials'));
 
 
 const publicPath = path.resolve(__dirname, "./public");

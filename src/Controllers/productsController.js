@@ -10,7 +10,7 @@ const productsController = {
 
     
     index: (req, res) => {
-		res.render('products',{productos: products})
+		res.render('index',{productos: products})
 	},
     
     carrito: function (req, res){
