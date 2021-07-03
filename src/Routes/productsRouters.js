@@ -1,14 +1,32 @@
-const productsController = require("../Controllers/productsController");
+
 
 const express = require("express");
 const router = express.Router();
 
 
-router.get("/", productsController.listaProducts)
+
+
+const productsController = require("../Controllers/productsController");
+
+/*** MUESTRA LISTADO DE PRODUCTOS ***/
+router.get("/", productsController.index)
  
+/*** AÑADIR PRODUCTO ***/
+router.get("/addProduct", productsController.añadirProducto);
+router.post("/create", uploadFile.single('imagenProducto'), productsController.crear); 
+
+/* VER CARRITO */
 router.get("/carrito", productsController.carrito);
-router.get("/:id", productsController.detalle);
-router.get("/addProduct", productsController.addProduct);
-router.get("/editProduct/:idProduct", productsController.editProduct);
+
+/* VER PRODUCTO */
+router.get("/detalle/:id", productsController.detalle);
+
+/* EDITAR PRODUCTO */
+router.get("/editProduct/:id", productsController.editarProducto);
+router.put("/editProduct/:id", productsController.actualizar); 
+
+
+/*** ELIMINAR UN PRODUCTO***/ 
+router.delete('/:id', productsController.eliminar); 
 
 module.exports = router;    
