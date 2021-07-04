@@ -1,83 +1,98 @@
 [
-    {
-        "id": 1,
-        "nombre": "Allocasia Cullata",
-        "descripcion": "Planta de interior, Riego Bajo",
-        "categoría": "Interior",
-        "precio":  750,
-        "imagen": "Alocasia Cullata.jpg"
-      },
-    {
-        "id": 2,
-        "nombre": "Tradescantia Spathacea",
-        "descripcion": "Planta de interior, Riego Bajo",
-        "categoría": "Interior",
-        "precio":  1150,
-        "imagen": "Tradescantia-spathacea.jpg"
-    },{
-        "id": 3,
-        "nombre": "Palo de Agua",
-        "descripcion": "Planta de interior, Riego Bajo",
-        "categoría": "Interior",
-        "precio":  1050,
-        "imagen": "Palo de Agua.jpg"
-    },{
-        "id": 4,
-        "nombre": "Ficus Elástica",
-        "descripcion": "Planta de interior, Riego Bajo",
-        "categoría": "Interior",
-        "precio":  1350,
-        "imagen": "Ficus Elástica.jpg"
-    },
-    {
-        "id": 4,
-        "nombre": "Dracena Marginata",
-        "descripcion": "Planta de interior, Riego Bajo",
-        "categoría": "Interior",
-        "precio":  1150,
-        "imagen": "Dracena Marginata.jpg"
-    },{
-        "id": 4,
-        "nombre": "Dracena Kiwi",
-        "descripcion": "Planta de interior, Riego Bajo",
-        "categoría": "Interior",
-        "precio":  1650,
-        "imagen": "Dracena Kiwi.jpg"
-    },{
-        "id": 4,
-        "nombre": "Ficus Hawai",
-        "descripcion": "Planta de interior, Riego Bajo",
-        "categoría": "Interior",
-        "precio":  1150,
-        "imagen": "Ficus Hawai.jpg"
-    },
-    {
-        "id": 4,
-        "nombre": "Ficus Hawai",
-        "descripcion": "Planta de interior, Riego Bajo",
-        "categoría": "Interior",
-        "precio":  1150,
-        "imagen": "Ficus Hawai.jpg"
-    },
-    {
-        "id": 4,
-        "nombre": "Ficus Hawai",
-        "descripcion": "Planta de interior, Riego Bajo",
-        "categoría": "Interior",
-        "precio":  1150,
-        "imagen": "Ficus Hawai.jpg"
-    },
-    {
-        "id": 4,
-        "nombre": "Roberto Carlos",
-        "descripcion": "Planta de interior, Riego Bajo",
-        "categoría": "Interior",
-        "precio":  1150,
-        "imagen": "Ficus Hawai.jpg"
-    }
-           
-
+ {
+  "id": 1,
+  "nombre": "Allocasia Cullata",
+  "descripcion": "Planta de interior, Riego Bajo",
+  "categoría": "Interior",
+  "precio": 750,
+  "imagen": "Alocasia Cullata.jpg"
+ },
+ {
+  "id": 2,
+  "nombre": "Tradescantia Spathacea",
+  "descripcion": "Planta de interior, Riego Bajo",
+  "categoría": "Interior",
+  "precio": 1150,
+  "imagen": "Tradescantia-spathacea.jpg"
+ },
+ {
+  "id": 3,
+  "nombre": "Palo de Agua",
+  "descripcion": "Planta de interior, Riego Bajo",
+  "categoría": "Interior",
+  "precio": 1050,
+  "imagen": "Palo de Agua.jpg"
+ },
+ {
+  "id": 4,
+  "nombre": "Ficus Elástica",
+  "descripcion": "Planta de interior, Riego Bajo",
+  "categoría": "Interior",
+  "precio": 1350,
+  "imagen": "Ficus Elástica.jpg"
+ },
+ {
+  "id": 4,
+  "nombre": "Dracena Marginata",
+  "descripcion": "Planta de interior, Riego Bajo",
+  "categoría": "Interior",
+  "precio": 1150,
+  "imagen": "Dracena Marginata.jpg"
+ },
+ {
+  "id": 4,
+  "nombre": "Dracena Kiwi",
+  "descripcion": "Planta de interior, Riego Bajo",
+  "categoría": "Interior",
+  "precio": 1650,
+  "imagen": "Dracena Kiwi.jpg"
+ },
+ {
+  "id": 4,
+  "nombre": "Ficus Hawai",
+  "descripcion": "Planta de interior, Riego Bajo",
+  "categoría": "Interior",
+  "precio": 1150,
+  "imagen": "Ficus Hawai.jpg"
+ },
+ {
+  "id": 4,
+  "nombre": "Ficus Hawai",
+  "descripcion": "Planta de interior, Riego Bajo",
+  "categoría": "Interior",
+  "precio": 1150,
+  "imagen": "Ficus Hawai.jpg"
+ },
+ {
+  "id": 4,
+  "nombre": "Ficus Hawai",
+  "descripcion": "Planta de interior, Riego Bajo",
+  "categoría": "Interior",
+  "precio": 1150,
+  "imagen": "Ficus Hawai.jpg"
+ },
+ {
+  "id": 4,
+  "nombre": "Roberto Carlos",
+  "descripcion": "Planta de interior, Riego Bajo",
+  "categoría": "Interior",
+  "precio": 1150,
+  "imagen": "Ficus Hawai.jpg"
+ },
+ {
+  "id": 5,
+  "nombre-de-producto": "asdasdasdasdasd",
+  "precio-de-producto": "222",
+  "descripcion-nuevo-producto": "dasdasdasdasdasd",
+  "select": "value1",
+  "imagen": "img-thom-yorke.jpg"
+ },
+ {
+  "id": 6,
+  "nombre-de-producto": "asdasdasdasdasd",
+  "precio-de-producto": "2222",
+  "descripcion-nuevo-producto": "asdasdasd",
+  "select": "value1",
+  "imagen": "img-thom-yorke.jpg"
+ }
 ]
-   
-
-   

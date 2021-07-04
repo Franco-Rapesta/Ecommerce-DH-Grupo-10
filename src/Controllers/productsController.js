@@ -37,10 +37,10 @@ const productsController = {
     
     /* AÑADIR PRODUCTO - METODO */ 
     
-    crear: function (req, res) {
+    guardar: function (req, res) {
 		let nombreImagen=req.file.filename;
 		let idNuevo = products[products.length-1].id + 1;
-		let nuevoObjeto =  Object.assign({id: idNuevo},req.body,{image:nombreImagen});
+		let nuevoObjeto =  Object.assign({id: idNuevo},req.body,{imagen:nombreImagen});
 		products.push(nuevoObjeto);
    	    fs.writeFileSync(productsFilePath, JSON.stringify(products,null, ' '));
 		res.redirect('/');
@@ -98,8 +98,12 @@ const productsController = {
 				break;
 			}
 		}
+
+		fs.writeFileSync(productsFilePath, JSON.stringify(products,null, ' '));
+		fs.unlinkSync(path.join(__dirname,'../../public/img'+nombreImagen));
+		res.render('index',{productos: products});
     }    
 	
-}
+};
 
 module.exports = productsController;

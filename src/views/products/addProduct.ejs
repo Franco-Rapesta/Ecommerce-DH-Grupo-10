@@ -61,16 +61,17 @@
 
         <section class="add-product">
             
-            <form action="/agregar-producto" method="POST">
+            <form action="/products/addProduct" method="POST"  enctype="multipart/form-data">
                 <div>
                     <label for="nombre-de-producto">Nombre de Producto:</label>
-                    <input type="text" name="nombre-de-producto" class="img-nuevaW" placeholder="Producto NUEVO">
+                    <input type="text" name="nombre-de-producto" class="desc-nuevo-product" placeholder="Producto NUEVO">
                 </div>
-            <form action="/imagen-nuevo-producto" method="POST">
-                <input type="file" name="imagenProducto">
-            </form>   
             <br>
-                                   
+                <div>
+                    <label for="imagenProducto" class="form-label">Imagen</label>
+                    <input type="file" name="imagenProducto">
+                </div>
+            <br>
             <div>
                 <label for="precio-de-producto">Precio de Producto: </label>
                 <br>
