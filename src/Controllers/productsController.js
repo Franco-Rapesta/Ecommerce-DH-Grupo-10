@@ -35,7 +35,7 @@ const productsController = {
         res.render("./products/addProduct")
     },
     
-    /* AÑADIR PRODUCTO - METODO */ 
+    /* AÑADIR PRODUCTO - METODO DE GUARDADO */ 
     
     guardar: function (req, res) {
 		let nombreImagen=req.file.filename;

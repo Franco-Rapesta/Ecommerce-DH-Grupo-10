@@ -29,7 +29,7 @@
   "descripcion": "Planta de interior, Riego Bajo",
   "categoría": "Interior",
   "precio": 1350,
-  "imagen": "Ficus Elástica.jpg"
+  "imagen": "Ficus Elástica.jpeg"
  },
  {
   "id": 4,
@@ -81,18 +81,26 @@
  },
  {
   "id": 5,
-  "nombre-de-producto": "asdasdasdasdasd",
-  "precio-de-producto": "222",
-  "descripcion-nuevo-producto": "dasdasdasdasdasd",
+  "nombre": "Thom Yorke",
+  "precio": "300.000",
+  "descripcion": "De las cositas que mejor pude hacer en este mundo.",
   "select": "value1",
   "imagen": "img-thom-yorke.jpg"
  },
  {
   "id": 6,
-  "nombre-de-producto": "asdasdasdasdasd",
-  "precio-de-producto": "2222",
-  "descripcion-nuevo-producto": "asdasdasd",
-  "select": "value1",
+  "nombre": "Thom Yorke",
+  "descripcion": "Cantante de la Banda RadioHead",
+  "Categoría": "Exterior",
+  "precio": "300.000",
   "imagen": "img-thom-yorke.jpg"
+ },
+ {
+  "id": 7,
+  "nombre": "Juan Martin",
+  "descripcion": "eeee",
+  "Categoría": "Exterior",
+  "precio": "22222",
+  "imagen": "img-45257501442_fe41693fd4_o.jpg"
  }
 ]
