@@ -10,7 +10,7 @@ const productsController = {
 
     
     index: (req, res) => {
-		res.render('index',{productos: products})
+		res.render('./partials/index',{productos: products})
 	},
     
     carrito: function (req, res){
@@ -26,7 +26,7 @@ const productsController = {
 				var productoEncontrado = products[i];
 			}
 		}
-		res.render('detalle',{productoEnDetalle: productoEncontrado});
+		res.render('./products/detalle-producto',{productoEnDetalle: productoEncontrado});
 	},
     
     /* AÑADIR PRODUCTO - MUESTRA */   
