@@ -64,38 +64,30 @@
             <form action="/products/addProduct" method="POST"  enctype="multipart/form-data">
                 <div>
                     <label for="nombre-de-producto">Nombre de Producto:</label>
-                    <br>
-                    <input type="text" name="nombre" class="desc-nuevo-product" placeholder="Producto NUEVO">
+                    <input type="text" name="nombre-de-producto" class="desc-nuevo-product" placeholder="Producto NUEVO">
                 </div>
             <br>
-            <div>
-                <label for="descripcion-nuevo-producto">Descripcion: </label>
-                <br>
-                <input type="text" name="descripcion" class="desc-nuevo-product" placeholder="Aqui su Descripcion">
-            </div>
-            <br>
-            <label for="interior-exterior">Característica: </label>
-            <br>
-            <select name="Categoría" class="interior-exterior">
-                <option value="Exterior" selected>Exterior</option>
-                <option value="Interior">Interior</option>
-            </select>
-            <br>
+                <div>
+                    <label for="imagenProducto" class="form-label">Imagen</label>
+                    <input type="file" name="imagenProducto">
+                </div>
             <br>
             <div>
                 <label for="precio-de-producto">Precio de Producto: </label>
                 <br>
-                <input type="number" name="precio" class="precio-nuevo" placeholder="$$$$">
+                <input type="number" name="precio-de-producto" class="precio-nuevo" placeholder="$$$$">
             </div>
-            <br>
             <div>
-                    <label for="imagenProducto" class="form-label">Imagen</label>
-                    <br>
-                    <input type="file" name="imagenProducto">
+                <label for="descripcion-nuevo-producto">Descripcion: </label>
+                <br>
+                <input type="text" name="descripcion-nuevo-producto" class="desc-nuevo-product" placeholder="Aqui su Descripcion">
             </div>
+            <label for="interior-exterior">Característica: </label>
             <br>
-            
-            <br>
+                <select name="select" class="interior-exterior">
+                    <option value="value1" selected>Exterior</option>
+                    <option value="value2">Interior</option>
+                </select>
             <button type="submit" value="Login" class="login-button">Subir Producto</button>
               
             </form>

@@ -16,6 +16,8 @@ const uploadFile = multer({ storage: multerDiskStorage });
 const productsController = require("../Controllers/productsController");
 
 
+
+
 /*** MUESTRA LISTADO DE PRODUCTOS ***/
 router.get("/", productsController.index)
  
